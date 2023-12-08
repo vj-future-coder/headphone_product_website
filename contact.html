@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>VJ TWT AUDIO </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #f8f9fa; /* Light gray background */
+    }
+    @media only screen and (max-width:400px) {
+        .container{
+        padding: 1rem;
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+    }
+    /* Contact Section styling */
+    .contact-section {
+        background-color: #ffffff;
+        padding: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Form styling */
+    form {
+        margin-top: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    input[type="text"]:hover,
+    input[type="email"]:hover,
+    textarea:hover {
+        border-color: #007bff;
+    }
+
+    input[type="button"] {
+        background-color: #007bff;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.15s ease-in-out;
+    }
+
+    input[type="button"]:hover {
+        background-color: #0056b3;
+    }
+
+    /* Footer styling */
+    .footer {
+        background-color: #343a40;
+        color: #ffffff;
+        text-align: center;
+        height: 50px;
+        width: 100%;
+    }
+
+    /* Add padding to the container */
+    .container {
+        padding: 20px;
+    }
+
+    /* Add some styles to the headings */
+    h1 {
+        color: #007bff;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    /* Add some styles to the form */
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+    /* Add some styles to the button */
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">VJ TWT AUDIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="review.html">Review</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Contact Section -->
+<div class="container contact-section">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="TW200-42.webp" class="img-fluid rounded" alt="About Image">
+      </div>
+      <div class="col-md-6 mt-4">
+        <h1 class="mb-4">CONTACT INFORMATION</h1>   
+        <p> 9492372651</p>
+        <p>vjtwtaudio@.com</p>
+        <div class="div">
+            <h1>HAVE QUESTIONS? DROP US A NOTE!</h1>
+            <form action="">
+                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="email" class="form-control" placeholder="Your Email">
+                <textarea class="form-control" placeholder="Your Message" rows="5"></textarea>
+                <input type="button" class="btn btn-primary" value="Submit">
+            </form>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        Copyright:©VJ TWT AUDIO 2023
+    </div>
+</footer>
+
+</body>
+</html>

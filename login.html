@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>VJ TWT AUDIO </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/68939498b9.js" crossorigin="anonymous"></script>
+  <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        height: 600px;
+        width: 100%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    @media only screen and (max-width:400px) {
+        .container{
+        padding: 1rem;
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+}
+
+    /* Login form styling */
+    .login-container {
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 20px;
+        border: 1px solid #ced4da;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        height: 400px;
+    }
+
+    .login-container h4 {
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 15px;
+    }
+
+    .login-container .form-label {
+        margin-bottom: 5px;
+    }
+
+    .login-container .form-text {
+        display: block;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    .login-container .btn-primary {
+        width: 100%;
+        margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">VJ TWT AUDIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="review.html">Review</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div style="height: 500px">
+<!-- Login Form -->
+<div class="container login-container">
+    <form>
+        <h4 class="text-center mt-2 mb-3">User Login</h4>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">User Name</label>
+          <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-user"></i></span>
+            <input type="email" class="form-control" id="exampleInputEmail1">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <div class="input-group">
+            <span class="input-group-text"><i class="fa fa-key" aria-hidden="true"></i></span>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-text" style="float: inline-start; margin-top: 10px;"><a href="#">Forgot password?</a></div>
+          <div class="form-text" style="float: inline-end; text-decoration: none; margin-top: 10px;"><a href="#">Registor?</a></div>
+        </div>
+        <button type="submit" class="btn btn-primary"><i class="fa fa-sign-in" aria-hidden="true"></i> Login
+        </button>
+    </form>
+</div>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4 bg-dark">
+    <div class="footer-copyright text-center py-3" style="color: blanchedalmond;">Copyright:©VJ TWT AUDIO 2023 
+    </div>
+  </footer>
+  <!-- Footer -->
+</body>
+</html>
+
+
